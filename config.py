@@ -10,7 +10,7 @@ class Settings:
     chunk_size: int = 900
     chunk_overlap: int = 140
     min_section_len: int = 60
-    st_model_path: str = "/home/sysadmin/llm/search/st"
-    use_half: bool = True
+    st_model_path: str = "./st"
+    use_half: bool = True # Использовать float16 для ускорения работы на GPU
     batch_size_gpu: int = 128
     batch_size_cpu: int = 32

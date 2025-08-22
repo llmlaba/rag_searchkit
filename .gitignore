@@ -208,3 +208,6 @@ __marimo__/
 
 # custom additions
 *.epub
+/st
+/.venv_llm
+/chroma_store
